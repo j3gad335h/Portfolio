@@ -15,13 +15,13 @@ const Header = () => {
           <div className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
             <span className='text-gradient btn-link'>Contact Me</span>
             <div className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-              <a href="https://www.linkedin.com/in/jegadeeshn/" target='_blank'>
+              <a href="https://www.linkedin.com/in/jegadeeshn/" target='_blank' rel="noopener noreferrer">
                 <FaLinkedin />
               </a>
-              <a href="https://github.com/j3gad335h" target='_blank'>
+              <a href="https://github.com/j3gad335h" target='_blank' rel="noopener noreferrer">
                 <FaGithub />
               </a>
-              <a href="mailto:ntjegadeesh@gmail.com" target='_blank'>
+              <a href="mailto:ntjegadeesh@gmail.com" target='_blank' rel="noopener noreferrer">
                 <GrMail />
               </a>
             </div>

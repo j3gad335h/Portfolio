@@ -30,7 +30,7 @@ const Services = () => {
             viewport={{ once: false, amount: 0.3 }} className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten lg:mb-0'>
             <h2 className='h2 text-accent mb-6'>What I do</h2>
             <h3 className='h3 max-w-[455px] mb-16'>Backend Web Developer with 1 year experience.</h3>
-            <a href="https://github.com/j3gad335h" target='_blank'>
+            <a href="https://github.com/j3gad335h" target='_blank' rel="noopener noreferrer">
               <button className='btn btn-sm mb-6'>
                 See my work </button></a>
           </motion.div>

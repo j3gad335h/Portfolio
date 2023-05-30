@@ -20,7 +20,7 @@ const Work = () => {
               <h2 className='h2 leading-tight text-accent'>My Latest <br />Work.</h2>
               <p className='max-w-sm mb-16'>My latest projects using modern web technologies such as HTML, Css, Javascript along with FastAPI and Laravel to
                 create responsive and user-friendly web applications.</p>
-              <button className='btn btn-sm'><a href="https://github.com/j3gad335h/My_Projects" target='_blank'>View all projects</a></button>
+              <button className='btn btn-sm'><a href="https://github.com/j3gad335h/My_Projects" target='_blank' rel="noopener noreferrer">View all projects</a></button>
             </div>
             {/* Image */}
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>

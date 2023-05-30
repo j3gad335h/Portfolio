@@ -13,7 +13,7 @@ const Banner = () => {
           <div className='flex-1 text-center font-secondary lg:text-left'>
             <motion.h1 variants={fadeIn('left', 0.5)} initial="hidden" whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='text-[55px] font-bold leading-[0.8] lg:text-[110px]'>JEGADEESH <span>N</span></motion.h1>
+              className='text-[55px] font-bold leading-[0.8] lg:text-[110px] text-center'>JEGADEESH <span>N</span></motion.h1>
             <motion.div
               variants={fadeIn('left', 0.7)}
               initial="hidden"
@@ -32,7 +32,7 @@ const Banner = () => {
               ]} speed={40} className='text-accent' wrapper='span' repeat={Infinity} />
             </motion.div>
             <motion.p variants={fadeIn('left', 0.5)} initial="hidden" whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }} className='mb-8 max-w-lg mx-auto lg:mx-0'>Motivated and skilled Backend Developer with 1 year
+              viewport={{ once: false, amount: 0.7 }} className='mb-8 mx-auto lg:mx-0'>Motivated and skilled Backend Developer with 1 year
               of experience, excelling in Python and Laravel. Created a full-stack web application using HTML, CSS, JS, and Laravel,
               showcasing a strong understanding of front-end and back-end development.
             </motion.p>
@@ -43,12 +43,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }} className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
             </motion.div>
           </div>
-          <motion.div
-            variants={fadeIn('right', 0.7)}
-            initial="hidden"
-            whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }} className='flex-1 bg-dev bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'>
-          </motion.div>
+
         </div>
       </div>
     </section>
